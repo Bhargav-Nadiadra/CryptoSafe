@@ -8,7 +8,7 @@ import streamlit as st
 
 def encrypt_file(file_buffer):
     # Define your Azure Blob Storage connection string and container name
-    connection_string = "DefaultEndpointsProtocol=https;AccountName=cloudlabdone;AccountKey=MwvFY8n5QD97C7devFgOUL0f0dsD1lHpSznIN9uQ2+Os9tMYEj2xEIIrpREvbNXOOpTGFXOgDa0E+AStgvsKKg==;EndpointSuffix=core.windows.net"
+    connection_string = "DefaultEndpointsProtocol=https;AccountName=cloudlabdone;AccountKey=5nwjwRWSXHmX4fp6q+20KTT83t4t+dre0RR8kFYbOf5SqgPC7/AhF61xSR6CG6OMroowyK3oPyTz+AStkp7urA==;EndpointSuffix=core.windows.net"
     container_name = "demo"
 
     # Generate a Fernet key
@@ -53,7 +53,7 @@ def encrypt_file(file_buffer):
     return key.decode()
 
 def decrypt_file(file_buffer, key):
-    connection_string = "DefaultEndpointsProtocol=https;AccountName=cloudlabdone;AccountKey=MwvFY8n5QD97C7devFgOUL0f0dsD1lHpSznIN9uQ2+Os9tMYEj2xEIIrpREvbNXOOpTGFXOgDa0E+AStgvsKKg==;EndpointSuffix=core.windows.net"
+    connection_string = "DefaultEndpointsProtocol=https;AccountName=cloudlabdone;AccountKey=5nwjwRWSXHmX4fp6q+20KTT83t4t+dre0RR8kFYbOf5SqgPC7/AhF61xSR6CG6OMroowyK3oPyTz+AStkp7urA==;EndpointSuffix=core.windows.net"
     container_name = "demo"
 
     # Create BlobServiceClient object
