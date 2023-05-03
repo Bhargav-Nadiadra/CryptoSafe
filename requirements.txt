@@ -1,0 +1,5 @@
+azure-core==1.26.4
+azure-functions==1.13.3
+azure-storage-blob==12.16.0
+cryptography==3.4.7
+streamlit==1.21.0
